@@ -1,0 +1,623 @@
+2012/10/08 00:50:20 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.bootstrap" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(106): CComponent->__get('bootstrap')
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(30): CModule->__get('bootstrap')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/index
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:16:54 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "ClientsProjects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('ClientsProjects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('ClientsProjects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('ClientsProjects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/ClientsPro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/ClientsProjects
+---
+2012/10/08 01:17:38 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('ClientsProjects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/ClientsPro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/ClientsProjects
+---
+2012/10/08 01:17:41 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:17:44 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:19:21 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:21:56 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:21:58 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:21:59 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:22:05 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:22:25 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:22:26 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsProjects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:22:55 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsprojects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:22:56 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsprojects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:22:57 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clientsprojects.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clientsprojects...', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clientsprojects...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClientsprojects()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "clientsprojects".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('clientsprojects')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clientsprojects')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clientspro...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clientsprojects
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/page&view=about
+---
+2012/10/08 01:23:30 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "clients.php".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('clients.php', NULL, true)
+#1 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(46): CController->render('clients.php')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClients()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('clients')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/clients')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/clients
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/clientsprojects
+---
+2012/10/08 01:26:25 [error] [php] Undefined variable: listDataProvider (C:\wamp\www\DoronYii\protected\views\site\clients.php:13)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClients()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\DoronYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/DoronYii/index.php?r=site/clients
+in C:\wamp\www\DoronYii\protected\views\site\clients.php (13)
+in C:\wamp\www\DoronYii\protected\controllers\SiteController.php (47)
+in C:\wamp\www\DoronYii\index.php (13)
+2012/10/08 01:26:45 [error] [php] Undefined variable: listDataProvider (C:\wamp\www\DoronYii\protected\views\site\clients.php:13)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClients()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\DoronYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/DoronYii/index.php?r=site/clients
+in C:\wamp\www\DoronYii\protected\views\site\clients.php (13)
+in C:\wamp\www\DoronYii\protected\controllers\SiteController.php (47)
+in C:\wamp\www\DoronYii\index.php (13)
+2012/10/08 01:28:00 [error] [php] Undefined variable: listDataProvider (C:\wamp\www\DoronYii\protected\views\site\clients.php:13)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(47): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionClients()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\DoronYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/DoronYii/index.php?r=site/clients
+in C:\wamp\www\DoronYii\protected\views\site\clients.php (13)
+in C:\wamp\www\DoronYii\protected\controllers\SiteController.php (47)
+in C:\wamp\www\DoronYii\index.php (13)
+2012/10/08 13:41:21 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.Name" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('Name')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'Name')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'Name', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'Name', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'Name', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'Name', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(21): TbActiveForm->textFieldRow(Object(ContactForm), 'Name', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(88): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:41:30 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(21): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(88): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:42:30 [error] [php] Undefined variable: model (C:\wamp\www\DoronYii\protected\views\site\contact.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(71): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\DoronYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+in C:\wamp\www\DoronYii\protected\views\site\contact.php (21)
+in C:\wamp\www\DoronYii\protected\controllers\SiteController.php (71)
+in C:\wamp\www\DoronYii\index.php (13)
+2012/10/08 13:42:30 [error] [php] Undefined variable: model (C:\wamp\www\DoronYii\protected\views\site\contact.php:21)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(71): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\DoronYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+in C:\wamp\www\DoronYii\protected\views\site\contact.php (21)
+in C:\wamp\www\DoronYii\protected\controllers\SiteController.php (71)
+in C:\wamp\www\DoronYii\index.php (13)
+2012/10/08 13:44:15 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(21): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(88): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:44:16 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(21): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(88): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:45:01 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(18): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(92): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:45:02 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(18): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(92): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/08 13:45:03 [error] [exception.CException] exception 'CException' with message 'Property "ContactForm.textField" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2158): CComponent->__get('textField')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(ContactForm), 'textField')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(ContactForm), 'textField', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(ContactForm), 'textField', Array)
+#4 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(ContactForm), 'textField', Array)
+#5 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInput.php(222): TbInputHorizontal->textField()
+#6 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbInputHorizontal->run()
+#8 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(497): CBaseController->widget('bootstrap.widge...', Array)
+#9 C:\wamp\www\DoronYii\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('textfield', Object(ContactForm), 'textField', NULL, Array)
+#10 C:\wamp\www\DoronYii\protected\views\site\contact.php(18): TbActiveForm->textFieldRow(Object(ContactForm), 'textField', Array)
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Dor...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Dor...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\Dor...', Array, true)
+#14 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('contact', Array, true)
+#15 C:\wamp\www\DoronYii\protected\controllers\SiteController.php(92): CController->render('contact', Array)
+#16 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionContact()
+#17 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('contact')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/contact')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\wamp\www\DoronYii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/DoronYii/index.php?r=site/contact
+HTTP_REFERER=http://localhost/DoronYii/index.php?r=site/index
+---
+2012/10/26 00:37:06 [error] [exception.CException] exception 'CException' with message 'TbTypeahead must specify "model" and "attribute" or "name" property values.' in C:\wamp\www\yii\framework\web\widgets\CInputWidget.php:61
+Stack trace:
+#0 C:\wamp\www\FindYourConsructor\protected\extensions\bootstrap\widgets\TbTypeahead.php(36): CInputWidget->resolveNameID()
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbTypeahead->run()
+#2 C:\wamp\www\FindYourConsructor\protected\views\layouts\main.php(63): CBaseController->widget('bootstrap.widge...', Array)
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Fin...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Fin...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\Fin...', Array, true)
+#6 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#10 C:\wamp\www\FindYourConsructor\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Fin...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Fin...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\Fin...', Array, true)
+#14 C:\wamp\www\FindYourConsructor\protected\controllers\SiteController.php(40): CController->render('index')
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\FindYourConsructor\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/FindYourConsructor/index.php?r=site/index
+HTTP_REFERER=http://localhost/FindYourConsructor/index.php?r=site/page&view=about
+---
+2012/10/26 00:37:37 [error] [exception.CException] exception 'CException' with message 'TbTypeahead must specify "model" and "attribute" or "name" property values.' in C:\wamp\www\yii\framework\web\widgets\CInputWidget.php:61
+Stack trace:
+#0 C:\wamp\www\FindYourConsructor\protected\extensions\bootstrap\widgets\TbTypeahead.php(36): CInputWidget->resolveNameID()
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(174): TbTypeahead->run()
+#2 C:\wamp\www\FindYourConsructor\protected\views\layouts\main.php(63): CBaseController->widget('bootstrap.widge...', Array)
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Fin...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Fin...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\Fin...', Array, true)
+#6 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#10 C:\wamp\www\FindYourConsructor\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\Fin...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\Fin...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\Fin...', Array, true)
+#14 C:\wamp\www\FindYourConsructor\protected\controllers\SiteController.php(40): CController->render('index')
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/index')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\FindYourConsructor\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/FindYourConsructor/index.php?r=site/index
+HTTP_REFERER=http://localhost/FindYourConsructor/index.php?r=site/page&view=about
+---
+2012/10/26 18:25:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Map".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('Map')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(283): CController->run('Map')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/Map')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\FindYourConsructor\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/FindYourConsructor/index.php?r=site/Map
+HTTP_REFERER=http://localhost/FindYourConsructor/index.php?r=site/index
+---
